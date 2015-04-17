@@ -3,6 +3,6 @@
 		<title>哈哈</title>
 	</head>
 	<body>
-		<span><?php echo ($this); ?></span>
+		<span>{$this}</span>
 	</body>
 </html>

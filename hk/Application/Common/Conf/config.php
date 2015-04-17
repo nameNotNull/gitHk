@@ -44,5 +44,6 @@ $config = array(
 	
 	//默认成功跳转对应的模板文件
 	'TMPL_ACTION_SUCCESS' => 'Home@Public:dispatch_jump',
+);
 
 return array_merge($config,$dbconfig);

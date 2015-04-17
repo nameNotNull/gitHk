@@ -5,7 +5,7 @@ use Think\Model;
 class CommentModel {
 	public function getComment($pid){
 		$comment = M("comment");
-		$res =  $comment->where(array('pid'=>$pid))->select();
+		$res =  $comment->where(array('pid'=>$pid))->order("ctime desc")->select();
 		return $res;
 	}
 	public function delectComment($id){

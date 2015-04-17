@@ -17,7 +17,7 @@ class PublishModel {
 	}
 	public function getMsg(){
 		$user = M("publish");
-		$res =  $user->select();
+		$res =  $user->order("ctime desc")->select();
 		return $res;
 	
 	}

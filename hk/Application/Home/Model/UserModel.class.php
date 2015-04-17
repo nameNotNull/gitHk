@@ -6,17 +6,20 @@ class UserModel {
 	public function checkUser($name,$pwd,$login = false){
 		$user_model  = new UserModel();
 		$user = M("user");
-		$pwd =$user_model-> do_mdecrypt($pwd,"1234");
+		$pwd =$user_model->do_mencrypt($pwd,"1234");
 		$res = $user->where(array('username'=>$name))->find();
 		//var_dump ($res);
-		if($login){
-			if(empty($res)||$pwd === $res['password']){
+        if($login){
+			if(empty($res)||$pwd != $res['password']){
 				return false;
 			}
 		}else{
 			if(empty($res)){
 				return true;
-			}
+            }
+            else{
+                return false;
+            }
 		}
 		return true;
 		//$user->where('username='.$name)->select();
@@ -25,7 +28,7 @@ class UserModel {
 	
 	public function addUser($data){
 		$user_model  = new UserModel();
-		$data['password'] = $user_model->do_mencrypt($data['pwd'],"1234");
+        $data['password'] = $user_model->do_mencrypt($data['password'],"1234");
 		$user = M("user");
 		$res = $user->where(array('username'=>$name))->find();
 		if(empty($res)){

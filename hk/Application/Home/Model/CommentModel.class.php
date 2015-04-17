@@ -20,6 +20,7 @@ class CommentModel {
 	public function addComment($data,$vtype){
 		$add_data = array();
 		$add_data['pid'] = $data['pid'];
+		$add_data['content'] = $data['content'];
 		$publish_model = D('Publish');
 		$vuser_model = D('Vuser');
 		$comment = M("comment");

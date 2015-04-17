@@ -1,0 +1,28 @@
+[ 2015-04-18T05:03:09+08:00 ] ::1 /hk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003038s ]
+SQL: SHOW COLUMNS FROM `hk_vuser` [ RunTime:0.153221s ]
+NOTIC: [8] Undefined index: vtype E:\xampp\htdocs\hk\Application\Home\Model\PublishModel.class.php 第 8 行.
+SQL: SELECT * FROM `hk_vuser` WHERE `vtype` = null  [ RunTime:0.001310s ]
+NOTIC: [2] Missing argument 2 for Home\Model\VuserModel::getVuser(), called in E:\xampp\htdocs\hk\Application\Home\Model\PublishModel.class.php on line 12 and defined E:\xampp\htdocs\hk\Application\Home\Model\VuserModel.class.php 第 6 行.
+NOTIC: [8] Undefined variable: pid E:\xampp\htdocs\hk\Application\Home\Model\VuserModel.class.php 第 9 行.
+SQL: SELECT * FROM `hk_vuser` WHERE `vtype` = 0  [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `hk_publish` [ RunTime:0.142626s ]
+SQL: INSERT INTO `hk_publish` (`vtype`,`vuser`) VALUES (0,'vvv') [ RunTime:0.191250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000486s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.245405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.245636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001900s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002989s ]
+

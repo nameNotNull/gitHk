@@ -28,9 +28,9 @@ class PublishModel {
 		return $res;
 	
 	}
-	public function delectMsg($id){
+	public function delectMsg($id,$user){
 		$user = M("publish");
-		$res =  $user->where(array('id'=>$id))->delect();
+		$res =  $user->where(array('id'=>$id,'user'=>$user))->delect();
 		return $res;
 	
 	}

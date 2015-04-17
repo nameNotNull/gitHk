@@ -9,7 +9,7 @@ class PublishModel {
 		if(empty($res)){
 			$data['vtype'] = 0;
 		}
-		$data['vuser'] = $vuser_model->getVuser($data['vtype'],0);
+		$data['vuser'] = $vuser_model->getVuser($data['vtype']);
 		$res = $user -> add($data);
 		return $res;
 		

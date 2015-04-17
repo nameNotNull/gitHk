@@ -1335,3 +1335,16 @@ SQL: SELECT * FROM `hk_vuser` WHERE `vtype` = null  [ RunTime:0.000528s ]
 NOTIC: [2] Missing argument 2 for Home\Model\VuserModel::getVuser(), called in E:\xampp\htdocs\hk\Application\Home\Model\PublishModel.class.php on line 13 and defined E:\xampp\htdocs\hk\Application\Home\Model\VuserModel.class.php 第 6 行.
 SQL: SELECT * FROM `hk_vuser` WHERE `vtype` = 0  [ RunTime:0.000409s ]
 
+[ 2015-04-17T23:14:14+08:00 ] ::1 /hk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002037s ]
+SQL: SHOW COLUMNS FROM `hk_vuser` [ RunTime:0.010362s ]
+NOTIC: [8] Undefined index: vtype E:\xampp\htdocs\hk\Application\Home\Model\PublishModel.class.php 第 9 行.
+SQL: SELECT * FROM `hk_vuser` WHERE `vtype` = null  [ RunTime:0.000896s ]
+NOTIC: [2] Missing argument 2 for Home\Model\VuserModel::getVuser(), called in E:\xampp\htdocs\hk\Application\Home\Model\PublishModel.class.php on line 13 and defined E:\xampp\htdocs\hk\Application\Home\Model\VuserModel.class.php 第 6 行.
+SQL: SELECT * FROM `hk_vuser` WHERE `vtype` = 0  [ RunTime:0.000907s ]
+

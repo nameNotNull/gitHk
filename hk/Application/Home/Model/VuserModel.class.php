@@ -5,6 +5,9 @@ use Think\Model;
 class VuserModel {
 	public function getVuser($type = 0 ,$pid){
 		$vuser = array();
+		if(!empty($pid)){
+			$Comment_model = D('Comment');
+		}
 		$user = M("vuser");
 		$res = $user->where(array('vtype'=>$type))->select();
 		foreach ($res as $v){

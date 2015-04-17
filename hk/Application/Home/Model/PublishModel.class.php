@@ -10,13 +10,21 @@ class PublishModel {
 			$data['vtype'] = 0;
 		}
 		$data['vuser'] = $vuser_model->getVuser($data['vtype']);
-		$res = $user -> add($data);
+		$addmsg = M("publish");
+		$res = $addmsg -> add($data);
 		return $res;
 		
 	}
 	public function getMsg(){
 		$user = M("publish");
-		$res =  $user->where->select();
+		$res =  $user->select();
+		return $res;
+	
+	}
+	
+	public function getMsgbyId($id){
+		$user = M("publish");
+		$res =  $user->where(array('id'=>$id))->find();
 		return $res;
 	
 	}

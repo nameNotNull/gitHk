@@ -1038,3 +1038,300 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002358s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002604s ]
 
+[ 2015-04-17T21:49:14+08:00 ] ::1 /hk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `hk_publish` [ RunTime:0.005697s ]
+ERR: Think\Model:addMsg方法不存在！
+
+[ 2015-04-17T21:51:39+08:00 ] ::1 /hk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `hk_publish` [ RunTime:0.009475s ]
+ERR: Think\Model:addMsg方法不存在！
+
+[ 2015-04-17T21:52:23+08:00 ] ::1 /hk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `hk_publish` [ RunTime:0.009331s ]
+ERR: Think\Model:addMsg方法不存在！
+
+[ 2015-04-17T21:52:39+08:00 ] ::1 /hk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SHOW COLUMNS FROM `hk_publish` [ RunTime:0.010937s ]
+ERR: Think\Model:addMsg方法不存在！
+
+[ 2015-04-17T21:53:49+08:00 ] ::1 /hk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `hk_publish` [ RunTime:0.003391s ]
+ERR: Think\Model:addMsg方法不存在！
+
+[ 2015-04-17T21:54:06+08:00 ] ::1 /hk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `hk_publish` [ RunTime:0.009820s ]
+ERR: Think\Model:addMsg方法不存在！
+
+[ 2015-04-17T21:54:45+08:00 ] ::1 /hk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+SQL: SHOW COLUMNS FROM `hk_publish` [ RunTime:0.010786s ]
+ERR: Think\Model:addMsg方法不存在！
+
+[ 2015-04-17T21:56:00+08:00 ] ::1 /hk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+SQL: SHOW COLUMNS FROM `hk_vuser` [ RunTime:0.010394s ]
+SQL: SELECT * FROM `hk_vuser` WHERE `vtype` = 0  [ RunTime:0.000611s ]
+
+[ 2015-04-17T22:09:47+08:00 ] ::1 /hk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `hk_vuser` [ RunTime:0.008885s ]
+NOTIC: [8] Undefined index: vtype E:\xampp\htdocs\hk\Application\Home\Model\PublishModel.class.php 第 9 行.
+SQL: SELECT * FROM `hk_vuser` WHERE `vtype` = null  [ RunTime:0.000644s ]
+SQL: SELECT * FROM `hk_vuser` WHERE `vtype` = 0  [ RunTime:0.000628s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001648s ]
+
+[ 2015-04-17T22:10:24+08:00 ] ::1 /hk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+SQL: SHOW COLUMNS FROM `hk_vuser` [ RunTime:0.009772s ]
+NOTIC: [8] Undefined index: vtype E:\xampp\htdocs\hk\Application\Home\Model\PublishModel.class.php 第 9 行.
+SQL: SELECT * FROM `hk_vuser` WHERE `vtype` = null  [ RunTime:0.000644s ]
+SQL: SELECT * FROM `hk_vuser` WHERE `vtype` = 0  [ RunTime:0.000588s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000630s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003054s ]
+
+[ 2015-04-17T22:10:25+08:00 ] ::1 /hk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `hk_vuser` [ RunTime:0.010347s ]
+NOTIC: [8] Undefined index: vtype E:\xampp\htdocs\hk\Application\Home\Model\PublishModel.class.php 第 9 行.
+SQL: SELECT * FROM `hk_vuser` WHERE `vtype` = null  [ RunTime:0.000562s ]
+SQL: SELECT * FROM `hk_vuser` WHERE `vtype` = 0  [ RunTime:0.000533s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000528s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001663s ]
+
+[ 2015-04-17T22:10:27+08:00 ] ::1 /hk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+SQL: SHOW COLUMNS FROM `hk_vuser` [ RunTime:0.014968s ]
+NOTIC: [8] Undefined index: vtype E:\xampp\htdocs\hk\Application\Home\Model\PublishModel.class.php 第 9 行.
+SQL: SELECT * FROM `hk_vuser` WHERE `vtype` = null  [ RunTime:0.001346s ]
+SQL: SELECT * FROM `hk_vuser` WHERE `vtype` = 0  [ RunTime:0.000619s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2015-04-17T22:20:11+08:00 ] ::1 /hk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `hk_vuser` [ RunTime:0.003899s ]
+NOTIC: [8] Undefined index: vtype E:\xampp\htdocs\hk\Application\Home\Model\PublishModel.class.php 第 10 行.
+SQL: SELECT * FROM `hk_vuser` WHERE `vtype` = null  [ RunTime:0.000275s ]
+
+[ 2015-04-17T22:27:09+08:00 ] ::1 /hk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001813s ]
+SQL: SHOW COLUMNS FROM `hk_vuser` [ RunTime:0.012457s ]
+NOTIC: [8] Undefined index: vtype E:\xampp\htdocs\hk\Application\Home\Model\PublishModel.class.php 第 10 行.
+SQL: SELECT * FROM `hk_vuser` WHERE `vtype` = null  [ RunTime:0.000688s ]
+
+[ 2015-04-17T22:29:09+08:00 ] ::1 /hk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+
+[ 2015-04-17T22:30:23+08:00 ] ::1 /hk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+
+[ 2015-04-17T22:32:45+08:00 ] ::1 /hk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+
+[ 2015-04-17T22:34:31+08:00 ] ::1 /hk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+
+[ 2015-04-17T22:34:57+08:00 ] ::1 /hk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `hk_vuser` [ RunTime:0.011966s ]
+
+[ 2015-04-17T22:36:25+08:00 ] ::1 /hk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+
+[ 2015-04-17T22:39:22+08:00 ] ::1 /hk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `hk_vuser` [ RunTime:0.007544s ]
+NOTIC: [8] Undefined index: vtype E:\xampp\htdocs\hk\Application\Home\Model\PublishModel.class.php 第 9 行.
+SQL: SELECT * FROM `hk_vuser` WHERE `vtype` = null  [ RunTime:0.000482s ]
+
+[ 2015-04-17T22:39:49+08:00 ] ::1 /hk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `hk_vuser` [ RunTime:0.009346s ]
+NOTIC: [8] Undefined index: vtype E:\xampp\htdocs\hk\Application\Home\Model\PublishModel.class.php 第 9 行.
+SQL: SELECT * FROM `hk_vuser` WHERE `vtype` = null  [ RunTime:0.000548s ]
+NOTIC: [2] Missing argument 2 for Home\Model\VuserModel::getVuser(), called in E:\xampp\htdocs\hk\Application\Home\Model\PublishModel.class.php on line 13 and defined E:\xampp\htdocs\hk\Application\Home\Model\VuserModel.class.php 第 6 行.
+SQL: SELECT * FROM `hk_vuser` WHERE `vtype` = 0  [ RunTime:0.000456s ]
+SQL: INSERT INTO `hk_vuser` (`vtype`,`vuser`) VALUES (0,'xxi') [ RunTime:0.000467s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2015-04-17T22:41:10+08:00 ] ::1 /hk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `hk_vuser` [ RunTime:0.006814s ]
+NOTIC: [8] Undefined index: vtype E:\xampp\htdocs\hk\Application\Home\Model\PublishModel.class.php 第 9 行.
+SQL: SELECT * FROM `hk_vuser` WHERE `vtype` = null  [ RunTime:0.000528s ]
+NOTIC: [2] Missing argument 2 for Home\Model\VuserModel::getVuser(), called in E:\xampp\htdocs\hk\Application\Home\Model\PublishModel.class.php on line 13 and defined E:\xampp\htdocs\hk\Application\Home\Model\VuserModel.class.php 第 6 行.
+SQL: SELECT * FROM `hk_vuser` WHERE `vtype` = 0  [ RunTime:0.000409s ]
+

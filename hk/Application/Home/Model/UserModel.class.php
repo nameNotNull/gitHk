@@ -8,7 +8,6 @@ class UserModel {
 		$user = M("user");
 		$pwd =$user_model-> do_mdecrypt($pwd,"1234");
 		$res = $user->where(array('username'=>$name))->find();
-		//var_dump ($res);
 		if($login){
 			if(empty($res)||$pwd === $res['password']){
 				return false;
@@ -16,10 +15,11 @@ class UserModel {
 		}else{
 			if(empty($res)){
 				return true;
+			}else {
+				return false;
 			}
 		}
 		return true;
-		//$user->where('username='.$name)->select();
 	}
 	
 	

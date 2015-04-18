@@ -29,12 +29,12 @@ class CommentModel {
 			//回复评论
 			$res = $comment->where(array('id'=>$data['id']))->find();
 			$add_data['touser'] = $res_msg['user'];
-			$add_data['vtouser'] = $res_msg['vuser'];
+			$add_data['tovuser'] = $res_msg['vuser'];
 			
 		}else{
 			//回复楼主 
 			$add_data['touser'] = $res_msg['user'];
-			$add_data['vtouser'] = $res_msg['vuser'];
+			$add_data['tovuser'] = $res_msg['vuser'];
 		}
 		//楼主回复
 		if($res_msg['user'] == $data['user']){

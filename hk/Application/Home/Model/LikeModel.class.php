@@ -12,7 +12,7 @@ class LikeModel {
 	/*
 	 * $data['pid'],$data['cid'],$data['user']
 	 */
-	public function delectComment($data){
+	public function delectLike($data){
 		$like = M("like");
 		
 		$res =  $like->where($data)->delect();

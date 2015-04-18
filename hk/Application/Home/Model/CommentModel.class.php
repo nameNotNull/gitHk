@@ -48,6 +48,11 @@ class CommentModel {
 			}
 		}
 		$res =  $comment->add($add_data);
-		return $res;
+		if( is_numeric($res)){
+			return $add_data;
+		}else{
+			return null;
+		}
+		
 	}
 }

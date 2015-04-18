@@ -27,4 +27,10 @@ class VuserModel {
 		$num = array_rand($vuser);
 		return $vuser[$num];
 	}
+	public function getVtype(){
+		$user = M("vuser");
+		$res = $user->getField('vtype');
+		return $res;
+		
+	}
 }

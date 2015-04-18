@@ -8,6 +8,10 @@ class LikeModel {
 		$res =  $like->where(array('pid'=>$pid))->order("ctime desc")->select();
 		return $res;
 	}
+	
+	/*
+	 * $data['pid'],$data['cid'],$data['user']
+	 */
 	public function delectComment($data){
 		$like = M("like");
 		
@@ -15,9 +19,16 @@ class LikeModel {
 		return $res;
 	}
 	
-	
+	/*
+	 * $data['pid'],$data['cid'],$data['user']
+	 * false 表示已经点赞
+	*/
 	public function addLike($data){
 		$like = M('like');
+		$is_have = $like->where($data)->find();
+		if($is_have){
+			return false;
+		}
 		$publish_model = D('Publish');
 		$comment_model = D('comment');
 		if($data['pid']!=0){

@@ -21,6 +21,7 @@ class CommentModel {
 		$add_data = array();
 		$add_data['pid'] = $data['pid'];
 		$add_data['content'] = $data['content'];
+		$add_data['ctime'] = $data['ctime'];
 		$publish_model = D('Publish');
 		$vuser_model = D('Vuser');
 		$comment = M("comment");

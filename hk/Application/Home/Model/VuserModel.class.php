@@ -28,8 +28,8 @@ class VuserModel {
 		return $vuser[$num];
 	}
 	public function getVtype(){
-		$user = M("vuser");
-		$res = $user->getField('vtype');
+		$user = M();
+		$res = $user->query("select vtype from hk_vuser group by vtype");
 		return $res;
 		
 	}

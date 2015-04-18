@@ -7,7 +7,7 @@ class PublishModel {
 		$vuser_model = D('Vuser');
 		$res = $user->where(array('vtype'=>$data['vtype']))->select();
 		if(empty($res)){
-			$data['vtype'] = 0;
+			$data['vtype'] = "海贼王";
 		}
 		$data['vuser'] = $vuser_model->getVuser($data['vtype']);
 		$addmsg = M("publish");
